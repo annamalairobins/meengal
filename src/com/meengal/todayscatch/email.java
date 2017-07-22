@@ -78,6 +78,7 @@ public class email {
 	         message.setContent(multipart);
 
 	         // Send message
+	         //Check in
 	         Transport.send(message);
 
 
