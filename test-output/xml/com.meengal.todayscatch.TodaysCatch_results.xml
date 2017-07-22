@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="49.889">
+  <properties />
+            <testcase name="tc_02" time="24.617" classname="com.meengal.todayscatch.TodaysCatch">
+                <failure type="java.lang.AssertionError"
+                  message="Element nt fnd"
+              >
+<![CDATA[java.lang.AssertionError: Element nt fnd
+  org.testng.Assert.fail(Assert.java:93)
+  com.meengal.todayscatch.TodaysCatch.tc_02(TodaysCatch.java:119)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+  org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="tc_01" time="25.272" classname="com.meengal.todayscatch.TodaysCatch">
+                <failure type="java.lang.AssertionError"
+                  message="Element nt fnd"
+              >
+<![CDATA[java.lang.AssertionError: Element nt fnd
+  org.testng.Assert.fail(Assert.java:93)
+  com.meengal.todayscatch.TodaysCatch.tc_01(TodaysCatch.java:72)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+  org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>
